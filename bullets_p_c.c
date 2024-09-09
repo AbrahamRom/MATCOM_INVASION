@@ -13,22 +13,28 @@ void* productor(void* arg)
     while (1)
     {
         sleep(1); // Espera 1 segundo
-        sem_wait(&sem); // Espera a obtener el semáforo
+       // sem_wait(&sem); // Espera a obtener el semáforo
+        pthread_mutex_lock(&lock);
 
         if (variable < MAX_VALUE)
         {
             variable++;
         }
-
-        sem_post(&sem); // Libera el semáforo
+        pthread_mutex_unlock(&lock);
+        //sem_post(&sem); // Libera el semáforo
+        sleep(1); // Espera 1 segundo
+        if (stop_thread)
+        {
+            break;
+        }
     }
     return NULL;
 }
 
 void* consumidor(Object* ship)
 {
-    sem_wait(&sem); // Espera a obtener el semáforo
-
+    //sem_wait(&sem); // Espera a obtener el semáforo
+    pthread_mutex_lock(&lock);
     if (variable > 0)
     {
         variable--;
@@ -36,8 +42,8 @@ void* consumidor(Object* ship)
         Object* bullet = create_bullet(ship->position);
         add_Object(bullet);
     }
-
-    sem_post(&sem); // Libera el semáforo
+    pthread_mutex_unlock(&lock);
+    //sem_post(&sem); // Libera el semáforo
 
     return NULL;
 }

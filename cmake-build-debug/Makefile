@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION
+CMAKE_SOURCE_DIR = "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug
+CMAKE_BINARY_DIR = "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug/CMakeFiles /mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug/CMakeFiles" "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ MATCOM_INVADERS: cmake_check_build_system
 MATCOM_INVADERS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MATCOM_INVADERS.dir/build.make CMakeFiles/MATCOM_INVADERS.dir/build
 .PHONY : MATCOM_INVADERS/fast
+
+FIFO_enemies_deployment.o: FIFO_enemies_deployment.c.o
+.PHONY : FIFO_enemies_deployment.o
+
+# target to build an object file
+FIFO_enemies_deployment.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MATCOM_INVADERS.dir/build.make CMakeFiles/MATCOM_INVADERS.dir/FIFO_enemies_deployment.c.o
+.PHONY : FIFO_enemies_deployment.c.o
+
+FIFO_enemies_deployment.i: FIFO_enemies_deployment.c.i
+.PHONY : FIFO_enemies_deployment.i
+
+# target to preprocess a source file
+FIFO_enemies_deployment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MATCOM_INVADERS.dir/build.make CMakeFiles/MATCOM_INVADERS.dir/FIFO_enemies_deployment.c.i
+.PHONY : FIFO_enemies_deployment.c.i
+
+FIFO_enemies_deployment.s: FIFO_enemies_deployment.c.s
+.PHONY : FIFO_enemies_deployment.s
+
+# target to generate assembly for a file
+FIFO_enemies_deployment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MATCOM_INVADERS.dir/build.make CMakeFiles/MATCOM_INVADERS.dir/FIFO_enemies_deployment.c.s
+.PHONY : FIFO_enemies_deployment.c.s
 
 NF_linkedlist.o: NF_linkedlist.c.o
 .PHONY : NF_linkedlist.o
@@ -354,6 +378,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MATCOM_INVADERS"
+	@echo "... FIFO_enemies_deployment.o"
+	@echo "... FIFO_enemies_deployment.i"
+	@echo "... FIFO_enemies_deployment.s"
 	@echo "... NF_linkedlist.o"
 	@echo "... NF_linkedlist.i"
 	@echo "... NF_linkedlist.s"

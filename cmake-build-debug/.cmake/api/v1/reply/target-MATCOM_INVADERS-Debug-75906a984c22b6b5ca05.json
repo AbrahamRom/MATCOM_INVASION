@@ -57,7 +57,8 @@
 				7,
 				9,
 				10,
-				11
+				11,
+				12
 			]
 		}
 	],
@@ -98,7 +99,8 @@
 				7,
 				9,
 				10,
-				11
+				11,
+				12
 			]
 		},
 		{
@@ -107,7 +109,8 @@
 			[
 				3,
 				5,
-				8
+				8,
+				13
 			]
 		}
 	],
@@ -181,6 +184,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "save_local.c",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FIFO_enemies_deployment.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FIFO_enemies_deployment.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

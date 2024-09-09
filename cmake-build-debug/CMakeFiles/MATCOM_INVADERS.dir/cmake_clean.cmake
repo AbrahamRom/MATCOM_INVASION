@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MATCOM_INVADERS.dir/FIFO_enemies_deployment.c.o"
+  "CMakeFiles/MATCOM_INVADERS.dir/FIFO_enemies_deployment.c.o.d"
   "CMakeFiles/MATCOM_INVADERS.dir/NF_linkedlist.c.o"
   "CMakeFiles/MATCOM_INVADERS.dir/NF_linkedlist.c.o.d"
   "CMakeFiles/MATCOM_INVADERS.dir/bomb.c.o"

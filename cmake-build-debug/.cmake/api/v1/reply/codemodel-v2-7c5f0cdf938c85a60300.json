@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MATCOM_INVADERS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MATCOM_INVADERS-Debug-d33502f465bec41d8205.json",
+					"jsonFile" : "target-MATCOM_INVADERS-Debug-75906a984c22b6b5ca05.json",
 					"name" : "MATCOM_INVADERS",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug",
-		"source" : "/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION"
+		"build" : "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug",
+		"source" : "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION"
 	},
 	"version" : 
 	{

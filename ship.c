@@ -5,8 +5,8 @@
 
 //#include "bomb.h"
 #include "objects.c"
-//#include "bullets_p_c.h"
-//#include "print_frame.h"
+#include "bullets_p_c.h"
+#include "print_frame.h"
 #include "NF_Mem_Manager.h"
 
 char *model[] = {
@@ -61,6 +61,10 @@ void shot(int ch, MEVENT event, Object *ship)
                // remove_node_bomb(last_bomb());
             }
        }
+    }
+    if (ch == 100 || ch == KEY_DL)
+    {
+        consumidor(ship);
     }
 }
 

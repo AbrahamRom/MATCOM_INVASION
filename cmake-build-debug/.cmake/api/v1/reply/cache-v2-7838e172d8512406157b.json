@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug"
+			"value" : "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -475,7 +475,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -535,7 +535,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION"
+			"value" : "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug"
+			"value" : "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug"
 		},
 		{
 			"name" : "MATCOM_INVADERS_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION"
+			"value" : "/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION"
 		},
 		{
 			"name" : "ProcessorCount_cmd_nproc",

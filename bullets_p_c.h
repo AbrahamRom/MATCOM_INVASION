@@ -12,6 +12,8 @@
 
 int variable = 0;
 sem_t sem;
+pthread_mutex_t lock;
+int stop_thread;
 
 void* consumidor(Object* ship);
 void* productor(void* arg);

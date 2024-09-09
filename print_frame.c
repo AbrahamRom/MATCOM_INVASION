@@ -33,6 +33,18 @@ void move_ship(int ch, MEVENT event, Object* ship)
             //  refresh();
         }
         break;
+    case KEY_UP:
+        if (ship->position->y > 0) ship->position->y--;
+        break;
+    case KEY_DOWN:
+        if (ship->position->y < LINES - 3) ship->position->y++;
+        break;
+    case KEY_LEFT:
+        if (ship->position->x > 0) ship->position->x--;
+        break;
+    case KEY_RIGHT:
+        if (ship->position->x < COLS - 5) ship->position->x++;
+        break;
     default:
         break;
     }

@@ -81,6 +81,8 @@ int main()
 
         pthread_t hilo_productor;
         sem_init(&sem, 0, 1);
+        pthread_mutex_init(&lock, NULL);
+        stop_thread = false;
         pthread_create(&hilo_productor, NULL, productor, NULL);
 
         /// Fin de las inicializaciones///
@@ -118,8 +120,11 @@ int main()
         ///
         /// FALTA LIBERAR LA MEMORIA DESPUES DEL JUEGO;
         ///
-        //pthread_join(hilo_productor, NULL);
-        sem_destroy(&sem); // Destruye el semáforo
+        stop_thread = true;
+        sleep(1);
+        pthread_join(hilo_productor, NULL);
+        pthread_mutex_destroy(&lock);
+        //sem_destroy(&sem); // Destruye el semáforo
 
         free(player_ship);
         free_all();

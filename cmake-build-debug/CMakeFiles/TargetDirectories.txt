@@ -1,3 +1,3 @@
-/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug/CMakeFiles/MATCOM_INVADERS.dir
-/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/o/Desktop/MATCOM_INVASION/MATCOM_INVASION/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug/CMakeFiles/MATCOM_INVADERS.dir
+/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/o/Desktop/Nueva carpeta (3)/MATCOM_INVASION/cmake-build-debug/CMakeFiles/rebuild_cache.dir
